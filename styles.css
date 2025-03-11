@@ -1,0 +1,22 @@
+.img-fluid {
+    margin: 0%;
+    padding: 5px;
+    height: 380px;
+}
+.container{
+    margin: auto;
+    padding: 0%;
+    width: 700px;
+}
+.container img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 500px;  
+}
+#ronaldo img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 700px;  
+}

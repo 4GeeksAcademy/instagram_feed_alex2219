@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/6ad31c9262.js" crossorigin="anonymous"></script>
+    <title>INSTAGRAM FEED</title>
+</head>
+
+<body>
+    <!-- Inicio Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#"><i class="fa-brands fa-instagram me-1"
+                    style="color: #000000"></i>Instagram</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex">
+                <!-- Inicio Modal -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success me-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Create a new post
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                    Create new post
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1" class="fw-bolder">Caption:</label>
+                                        <textarea class="form-control my-1" id="exampleFormControlTextarea1" rows="2"
+                                            placeholder="Add the caption of your post here"></textarea>
+                                    </div>
+                                </form>
+                                <button type="button" class="btn btn-outline-secondary btn-light btn-sm mt-1">
+                                    <i class="fa-solid fa-camera" style="color: #000000"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary btn-light btn-sm mt-1">
+                                    <i class="fa-solid fa-location-dot" style="color: #000000"></i>
+                                </button>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                    Close
+                                </button>
+                                <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Modal -->
+                <div class="btn-group me-5">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-gear" style="color: #ffff"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <li>
+                            <a class="dropdown-item text-danger border-top border-secondary" href="#">Log out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin Navbar -->
+    <!-- Navtabs -->
+    <nav class="d-flex justify-content-center">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active mb-4" id="nav-grid-tab" data-bs-toggle="tab" data-bs-target="#nav-grid"
+                type="button" role="tab" aria-controls="nav-grid" aria-selected="true">
+                <i class="fa-solid fa-table-cells"></i>
+            </button>
+            <button class="nav-link mb-4" id="nav-full-tab" data-bs-toggle="tab" data-bs-target="#nav-full"
+                type="button" role="tab" aria-controls="nav-full" aria-selected="false">
+                <i class="fa-solid fa-square"></i>
+            </button>
+        </div>
+    </nav>
+    <!-- Tab grid -->
+    <div class="tab-content" id="nav-tabContent">
+        <div class="container-fluid tab-pane fade show active" id="nav-grid" role="tabpanel"
+            aria-labelledby="nav-grid-tab" tabindex="0">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="https://www.metroworldnews.com/resizer/kuqkuE-mcwI8ZYbo0BDFiNvl2fg=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/25Z44ZIRZ5CQ3LSVPFI5EILCGA.jpg"
+                        class="img-fluid" alt="Perro" />
+                </div>
+                <div class="col">
+                    <img src="https://www.corredordepropiedades.cl/wp-content/uploads/2021/01/students-boys-girls-1536x1043.jpg"
+                        class="img-fluid" alt="Jovenes" />
+                </div>
+                <div class="col">
+                    <img src="https://i.pinimg.com/564x/49/6e/98/496e98fd910af352ebf27b2960d9dc6a.jpg" class="img-fluid"
+                        alt="croacia" />
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <img src="https://www.revistaesfinge.com/wp-content/uploads/2019/12/e1be80432240eea966714443ade87ee2.jpg"
+                        class="img-fluid" alt="mujer" />
+                </div>
+                <div class="col" id="eiffel">
+                    <img src="https://www.civitatis.com/f/francia/paris/subida-torre-eiffel-589x392.jpg"
+                        class="img-fluid" alt="torre eifel" />
+                </div>
+                <div class="col">
+                    <img src="https://i.pinimg.com/736x/13/b6/d3/13b6d326e62750725cd2bb4b86b6c7d8.jpg" class="img-fluid"
+                        alt="cristiano ronaldo" />
+                </div>
+            </div>
+        </div>
+        <!-- End Tab grid -->
+        <!-- Tab full -->
+        <div class="tab-pane fade" id="nav-full" role="tabpanel" aria-labelledby="nav-full-tab" tabindex="0">
+            <div class="container border mb-4">
+                <div class="row">
+                    <div class="col-10">
+                        <h2 class="m-2">My Crazy dog Spark!</h2>
+                    </div>
+                    <div class="col-2">
+                        <p class="text-end pt-2 pe-2">1/4</p>
+                    </div>
+                </div>
+                <img class="img-fluid"
+                    src="https://www.metroworldnews.com/resizer/kuqkuE-mcwI8ZYbo0BDFiNvl2fg=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/25Z44ZIRZ5CQ3LSVPFI5EILCGA.jpg"
+                    alt="Perro" />
+                <div>
+                    <b class="p-2 pb-0 m-0">204 Likes</b>
+                    <p class="ps-2 pb-3">
+                        This is an example of a very good photo that you can post on
+                        instagram
+                    </p>
+                </div>
+            </div>
+            <div class="container border mb-4">
+                <div class="row">
+                    <div class="col-10">
+                        <h2 class="m-2">The greatness of croatia</h2>
+                    </div>
+                    <div class="col-2">
+                        <p class="text-end pt-2 pe-2">04/49</p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="https://i.pinimg.com/564x/49/6e/98/496e98fd910af352ebf27b2960d9dc6a.jpg"
+                    alt="croacia" />
+                <div>
+                    <b class="p-2 pb-0 m-0">26985 Likes</b>
+                    <p class="ps-2 pb-3">
+                        This is an example of a very good photo that you can post on
+                        instagram
+                    </p>
+                </div>
+            </div>
+            <div class="container border mb-4" id="ronaldo">
+                <div class="row">
+                    <div class="col-10">
+                        <h2 class="m-2">The Amazing GOAL by Cristiano!</h2>
+                    </div>
+                    <div class="col-2">
+                        <p class="text-end pt-2 pe-2">06/10</p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="https://i.pinimg.com/736x/13/b6/d3/13b6d326e62750725cd2bb4b86b6c7d8.jpg"
+                    alt="Cristiano ronaldo" />
+                <div>
+                    <b class="p-2 pb-0 m-0">204 Likes</b>
+                    <p class="ps-2 pb-3">
+                        This is an example of a very good photo that you can post on
+                        instagram
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- End Tab full -->
+    </div>
+    <!-- End NavTabs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
