@@ -12,11 +12,14 @@
     margin: 0%;
     padding: 0%;
     width: 100%;
-    height: 500px;  
+    height: 500px; 
+    object-fit: cover; 
 }
 #ronaldo img{
-    margin: 0%;
-    padding: 0%;
     width: 100%;
-    height: 700px;  
+    object-fit: cover;
+}
+#mujer img {
+    width: 100%;
+    object-fit: cover;
 }
